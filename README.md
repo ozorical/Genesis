@@ -1,6 +1,6 @@
 # Genesis
 
-**The First MCBE Anticheat built for Realms. Lightweight, and reliable.**
+**The First Lightweight MCBE Anticheat built for Realms. Lightweight, and reliable.**
 
 Genesis is a Minecraft Bedrock anticheat written for one job: protecting a Realm without spending the Realm's budget. Every other Bedrock anticheat was written for a dedicated server and then squeezed onto Realms afterwards. Genesis was built the other way around. It assumes eleven players, a fixed CPU slice, and an owner who wants to upload one file and be done.
 
