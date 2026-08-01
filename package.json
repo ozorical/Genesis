@@ -1,0 +1,32 @@
+{
+  "name": "genesis-anticheat",
+  "version": "1.0.0",
+  "productName": "GenesisAC",
+  "description": "The First MCBE Anticheat built for Realms. Lightweight, and reliable.",
+  "author": "Ozz",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "just-scripts build",
+    "package": "just-scripts package",
+    "mcpack": "just-scripts mcpack",
+    "deploy": "just-scripts local-deploy",
+    "watch": "just-scripts watch",
+    "clean": "just-scripts clean",
+    "lint": "just-scripts lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@minecraft/core-build-tasks": "^5.7.0",
+    "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "@typescript-eslint/parser": "^8.65.0",
+    "eslint-plugin-minecraft-linting": "^2.0.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@minecraft/server": "^2.8.0",
+    "@minecraft/server-ui": "^2.1.0",
+    "just-scripts": "^2.6.0"
+  }
+}

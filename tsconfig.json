@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "lib": ["ES2020"],
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "pretty": true,
+    "outDir": "lib",
+    "rootDir": "."
+  },
+  "include": ["scripts/**/*"],
+  "exclude": ["lib", "dist", "mc", "node_modules"]
+}
